@@ -93,7 +93,7 @@
 							</p>
 							<form action="/" method="post">
 								<div class="input_1">
-									<input type="email" name="email">
+									<input type="text" name="email">
 									<span>your email</span>
 								</div>
 								<button type="submit" class="btn green" style="margin-top:20px"><span>send</span></button>
