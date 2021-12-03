@@ -3,7 +3,7 @@
 
 	include __DIR__.'/../constants/settings.php';
 
-	if ($_POST['email'] != null) {
+	if ($_POST['email'] != null && strpos($_POST['email'], '@') === true) {
 		global $servername;
 		global $database;
 		global $username;
