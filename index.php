@@ -4,7 +4,7 @@
 <?php
 
 	$fileName = date("Y-m-d-H-i-s").'.txt';
-	file_put_contents("C:/docc/".$fileName, "Привет");
+	file_put_contents($fileName, "Привет");
 
 
 ?>
