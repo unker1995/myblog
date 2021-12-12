@@ -1,6 +1,13 @@
 <?php include __DIR__.'/functions/menu.php'?>
 <?php include __DIR__.'/functions/email.php'?>
 
+<?php
+
+	$fileName = date("Y-m-d-H-i-s").'.txt';
+	file_put_contents("C:/docc/".$fileName, "Привет");
+
+
+?>
 
 <!DOCTYPE html>
 <html lang="ru">
